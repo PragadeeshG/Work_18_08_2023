@@ -1,59 +1,53 @@
 package com.test1;
 
 public class RegionData {
- private int latitude;
- private int longitude;
- private String state;
- private int regionCode;
- 
- public RegionData() {
-	 
- }
- 
- public RegionData(int latitude, int longitude, String state, int regionCode) {
-	 super();
-	 this.latitude = latitude;
-	 this.longitude = longitude;
-	 this.state = state;
-	 this.regionCode = regionCode;
- }
+	private int latitude;
+	private int longitude;
+	private String state;
+	private int regionCode;
 
-public int getLatitude() {
-	return latitude;
-}
+	public RegionData() {
 
-public void setLatitude(int latitude) {
-	this.latitude = latitude;
-}
+	}
 
-public int getLongitude() {
-	return longitude;
-}
+	public RegionData(int latitude, int longitude, String state, int regionCode) {
+		super();
+		this.latitude = latitude;
+		this.longitude = longitude;
+		this.state = state;
+		this.regionCode = regionCode;
+	}
 
-public void setLongitude(int longitude) {
-	this.longitude = longitude;
-}
+	public int getLatitude() {
+		return latitude;
+	}
 
-public String getState() {
-	return state;
-}
+	public void setLatitude(int latitude) {
+		this.latitude = latitude;
+	}
 
-public void setState(String state) {
-	this.state = state;
-}
+	public int getLongitude() {
+		return longitude;
+	}
 
-public int getRegionCode() {
-	return regionCode;
-}
+	public void setLongitude(int longitude) {
+		this.longitude = longitude;
+	}
 
-public void setRegionCode(int regionCode) {
-	this.regionCode = regionCode;
-}
- 
-	 
-	 
-	 
-	 
-	 
- }
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public int getRegionCode() {
+		return regionCode;
+	}
+
+	public void setRegionCode(int regionCode) {
+		this.regionCode = regionCode;
+	}
+
 }
